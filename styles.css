@@ -5,8 +5,8 @@ body, h1, h2, p, ul, li, form, input, textarea, button {margin: 0; padding: 0;}
 
 body {
     font-family: Arial, sans-serif;
-    background-color: hsl(0, 0%, 100%);
-    color: #333;
+    background-color: white (0, 0%, 100%);
+    color: #313131;
     line-height: 1.6;
     padding: 20px;
     text-align: center;}
@@ -29,11 +29,11 @@ header h1 {font-size: 28px; margin-bottom: 15px;}
 
 nav ul {list-style: none;}
 nav li { display:inline-block; margin: 0 10px}
-nav a {text-decoration: none; color: #333; padding: 6px 12px; border: 1px solid #333; border-radius: 4px;}
+nav a {text-decoration: none; color: #313131; padding: 6px 12px; border: 1px solid #313131; border-radius: 4px;}
 
     /* HIGHLIGHT ACTIVE PAGE */
 
-    nav a.active {background-color: #005678; color: white; border: color #005678;;}
+    nav a.active {background-color: #005678; color: white; border-color: #005678;;}
     /* HOVER */
 
     nav a:hover {background-color: #005678; color: white;}
@@ -52,7 +52,7 @@ section h2 {margin-bottom:10px}
 
 form {display: flex; flex-direction:column; gap: 12px; margin-top: 15px}
 label {font-weight: bold;}
-input, textarea {padding: 8px; border: 1px solid #aaa; border-radius: 4px; font-size: 14px;}
+input, textarea {padding: 8px; border: 1px solid white; border-radius: 4px; font-size: 14px;}
 
 /* SUBMIT BUTTON */
 
