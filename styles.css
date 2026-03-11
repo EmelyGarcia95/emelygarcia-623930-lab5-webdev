@@ -33,8 +33,11 @@ header h1 {font-size: 28px; margin-bottom: 15px;}
 
 /* NAVIGATION */
 
-nav {margin-top:15px;}
-nav a {text-decoration: none; margin: 0 15px; font-weight: bold; color: #313131;}
+nav {margin-top:15px;
+    displa: flex;
+    flex-direction: column;
+    gap: 10px;}
+nav a {text-decoration: none; margin: 0; font-weight: bold; color: #313131;}
 
     /* HIGHLIGHT ACTIVE PAGE */
 
@@ -63,7 +66,7 @@ form { display: flex;
     gap: 20px;
     width: 100%;
     justify-content: flex-start;
-    align-items: flex-start
+    align-items: flex-start;
     text-align: left;}
 
 .form-group {display: flex; flex-direction: column; width: 250px; gap: 6px}
