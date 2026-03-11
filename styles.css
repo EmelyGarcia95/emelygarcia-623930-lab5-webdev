@@ -62,8 +62,10 @@ form { display: flex;
     flex-direction: row;
     gap: 20px;
     width: 100%;
-    justify-content: center
-    align-items: flex-start}
+    justify-content: flex-start;
+    align-items: flex-start
+    text-align: left;}
+
 .form-group {display: flex; flex-direction: column; width: 250px; gap: 6px}
 textarea {height:120px;}
 
