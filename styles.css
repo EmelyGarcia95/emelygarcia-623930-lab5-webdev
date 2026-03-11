@@ -31,9 +31,10 @@ header h1 {font-size: 28px; margin-bottom: 15px;}
 
 /* LOGO */
 
-.logo {width: 100px;
+.logo {width: 60px;
     height: auto;
-    display: block;}
+    display: block;
+    margin-bottom: 10px;}
 
 /* PAGE NAME */
 header h1 {font-size: 28px;
