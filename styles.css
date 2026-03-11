@@ -59,11 +59,13 @@ section h2 {margin-bottom:10px}
 /* FORM STYLING */
 
 form { display: flex;
-    flex-direction: column;
-    gap: 12px;
-    width: 300px;
-    margin: 0 auto;   /* ← THIS centers the entire form */
-    text-align: left;}
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    justify-content: center
+    align-items: flex-start
+.form-group {display: flex; flex-direction: column; width: 250px}
+textarea {height:120px;}
 
 label {font-weight: bold;}
 
