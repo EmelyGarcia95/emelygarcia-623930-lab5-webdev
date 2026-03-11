@@ -5,7 +5,7 @@ body, h1, h2, p, ul, li, form, input, textarea, button {margin: 0; padding: 0;}
 
 body {
     font-family: Arial, sans-serif;
-    background-color: white (0, 0%, 100%);
+    background-color: white;
     color: #313131;
     line-height: 1.6;
     padding: 20px;
@@ -13,7 +13,12 @@ body {
 
 /* HEADER */
 
-header {margin-bottom: 20px}
+header {margin-bottom: 20px
+        text-align: center; padding: 20px;}
+
+/* SLOGAN */
+
+.slogan {margin-top: -10px; font-style: italic; color: #313131}
 
 /* STORE NAME */
 
@@ -27,9 +32,8 @@ header h1 {font-size: 28px; margin-bottom: 15px;}
 
 /* NAVIGATION */
 
-nav ul {list-style: none;}
-nav li { display:inline-block; margin: 0 10px}
-nav a {text-decoration: none; color: #313131; padding: 6px 12px; border: 1px solid #313131; border-radius: 4px;}
+nav {margin-top:15px;}
+nav a {text-decoration: none; margin: 0 15px; font-weight: bold; color: #313131; 
 
     /* HIGHLIGHT ACTIVE PAGE */
 
@@ -40,8 +44,11 @@ nav a {text-decoration: none; color: #313131; padding: 6px 12px; border: 1px sol
 
 /* MAIN CONTENT */
 
-main {max-width:600px; margin: 0 auto; /*adjust later*/
-    text-align: left;}
+main {max-width: 80%; margin: 0 auto; /*adjust later*/
+    text-align: center;}
+section {text-align: left;}
+
+
 
 /* SECTION SPACING */
 
